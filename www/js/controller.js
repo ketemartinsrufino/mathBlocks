@@ -1,58 +1,12 @@
 app.controller('MainController', function ($scope) {
 
 
-  $scope.actualFase = new MathBlocks.Views.FaseZero();
+  $scope.actualFase = new MathBlocks.Views.FaseOne();
 
   var state = {
     selected : 'selected',
     unselected : 'unselected'
   };
-
-  //$scope.mathData = {
-  //
-  //  'triangle-up': {
-  //    result: 3,
-  //    className: 'triangle-up',
-  //    state: 'unselected',
-  //    value: '4 + 5 - 6'
-  //  },
-  //
-  //  circle: {
-  //    result: 0,
-  //    className: 'circle',
-  //    state: 'unselected',
-  //    value: '0 - 9 -1'
-  //  },
-  //  square: {
-  //    result: 4,
-  //    className: 'square',
-  //    state: 'unselected',
-  //    value: '2 + 4/2'
-  //  }
-  //};
-  //
-  //$scope.blocksData = {
-  //
-  //  'triangle-up': {
-  //    result: 3,
-  //    className: 'triangle-up',
-  //    state: 'unselected',
-  //    value: ''
-  //  },
-  //
-  //  circle: {
-  //    result: 0,
-  //    className: 'circle',
-  //    state: 'unselected',
-  //    value: ''
-  //  },
-  //  square: {
-  //    result: 4,
-  //    className: 'square',
-  //    state: 'unselected',
-  //    value: ''
-  //  }
-  //};
 
   var unselectAll = function(elements) {
     for (var i = 0; i < elements.length; i++) {
@@ -61,8 +15,9 @@ app.controller('MainController', function ($scope) {
   };
 
   var clickMath = function(event, obj, allMath) {
+    var actualState = obj.getAttribute('state');
     unselectAll(allMath);
-    obj.setAttribute('state', state.selected);
+    obj.setAttribute('state', (actualState === state.selected? state.unselected: state.selected));
 
   };
 
@@ -71,14 +26,24 @@ app.controller('MainController', function ($scope) {
     addListeners();
   };
 
+  var checkFinish = function() {
+    var allBlocksViews = document.querySelectorAll('.blocks_container div:not([matched])');
+
+    if(allBlocksViews && !allBlocksViews.length) {
+      alert('Parabéns! Você passou para a próxima fase .');
+      $scope.actualFase = $scope.actualFase.nextFase;
+      gotoNextFase();
+    }
+  };
+
   var clickBlock = function(event, obj, allBlocks) {
 
     unselectAll(allBlocks);
 
-    var mathSelected = document.querySelector('.math_container [state="selected"]');
+    var mathSelected = document.querySelector('.maths_container [state="selected"]');
     if(mathSelected) {
-      var mathResult = mathSelected.getParameter('result');
-      var blockResult = obj.getParameter('result');
+      var mathResult = mathSelected.getAttribute('result');
+      var blockResult = obj.getAttribute('result');
       if(mathResult === blockResult) {
         mathSelected.style.display = 'none';
         obj.style.display = 'none';
@@ -92,13 +57,8 @@ app.controller('MainController', function ($scope) {
     }
 
     obj.setAttribute('matched', true);
-    var allBlocksViews = document.querySelectorAll('.blocks_container div:not([matched])');
-    console.log(allBlocksViews);
-    if(allBlocksViews && !allBlocksViews.length) {
-      alert('Parabéns! Você passou para a próxima fase .');
-      $scope.actualFase = $scope.actualFase.nextFase;
-      gotoNextFase();
-    }
+
+    checkFinish();
 
   };
 
@@ -114,7 +74,7 @@ app.controller('MainController', function ($scope) {
   };
 
   var addListeners = function() {
-    var allMaths = document.querySelectorAll('.math_container div');
+    var allMaths = document.querySelectorAll('.maths_container div');
     var allBlocks = document.querySelectorAll('.blocks_container div');
 
     addListenersToElements(allMaths, clickMath);

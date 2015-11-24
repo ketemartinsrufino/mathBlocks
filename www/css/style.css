@@ -1,5 +1,5 @@
 /* Empty. Add your own CSS if you like */
-.blocks_container, .math_container {
+.blocks_container, .maths_container {
   margin: 10px;
   /*border: 1px mediumpurple solid;*/
   width: 50%;
@@ -8,7 +8,7 @@
   text-align: center;
 }
 
-.math_container .triangle-up, .math_container .circle, .math_container .square {
+.maths_container .triangle-up, .maths_container .circle, .maths_container .square {
   display: inline-block;
   background-color: #D9D9D9;
   text-align: center;
@@ -48,6 +48,6 @@
   border-bottom: 100px solid green;
 }
 
-.math_container [state="selected"] {
+.maths_container [state="selected"] {
   border: 1px solid pink !important;
 }
