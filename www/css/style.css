@@ -1,0 +1,53 @@
+/* Empty. Add your own CSS if you like */
+.blocks_container, .math_container {
+  margin: 10px;
+  /*border: 1px mediumpurple solid;*/
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.math_container .triangle-up, .math_container .circle, .math_container .square {
+  display: inline-block;
+  background-color: #D9D9D9;
+  text-align: center;
+  padding: 10px;
+  width: initial;
+  margin: 20px;
+  /*border: 1px black solid;*/
+}
+.blocks_container .triangle-up, .blocks_container .circle, .blocks_container .square {
+  display: inline-block;
+  width: 200px;
+  margin: 20px;
+
+  /*border: 1px black solid;*/
+}
+
+.blocks_container .square {
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+
+.blocks_container .circle {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+
+.blocks_container .triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid green;
+}
+
+.math_container [state="selected"] {
+  border: 1px solid pink !important;
+}

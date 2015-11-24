@@ -1,0 +1,19 @@
+
+<div class="blocks_container" >
+  <div ng-repeat="block in blocksData" class="{{ block.className }} "  result="{{ block.result }} "></div>
+  <!--<div class="triangle-up" result="3"> </div>-->
+  <!--<div class="circle" result="0"> </div>-->
+  <!--<div class="square" result="4"></div>-->
+</div>
+
+<div class="math_container">
+
+  <div ng-repeat="math in mathData" class="{{ math.className }} "  result="{{ math.result }} ">
+    {{ math.value }}
+  </div>
+
+  <!--<div class="triangle-up" result="3"> 4 + 5 - 6 </div>-->
+  <!--<div class="circle" result="0"> 10 - 9 -1</div>-->
+  <!--<div class="square" result="4">2 + 4/2</div>-->
+</div>
+
