@@ -5,32 +5,71 @@ MathBlocks.Views.FaseTwo = (function() {
 
   function Fase() {
 
-    //MathBlocks.Views.FaseOne.apply (this, arguments);
+    MathBlocks.Views.FaseOne.apply (this, arguments);
+
+    this.nextFase = MathBlocks.Views.FaseOne;
 
     this.DataBlocks = {
 
-      'triangle_up': {
-        result: 3,
-        className: 'triangle-up',
+      'parallelogram': {
+        result: 4,
+        className: 'parallelogram',
         state: 'unselected',
-        value: '4 + 5 - 6'
+        value: '1 + 2 * 5 - [(3 * 2) + 1]'
+      },
+
+      'triangle-down': {
+        result: 3,
+        className: 'triangle-down',
+        state: 'unselected',
+        value: '2 * 5 - [(3 * 2) + 1]'
       },
 
       circle: {
         result: 0,
         className: 'circle',
         state: 'unselected',
-        value: '0 - 9 -1'
+        value: '2 * 10/5 + ( 3 + 1 ) * -1'
       },
       square: {
         result: 4,
         className: 'square',
         state: 'unselected',
-        value: '2 + 4/2'
+        value: '12/4 + ( 3 - 2)'
       }
     };
 
-    this.DataMath = this.DataBlocks;
+    this.DataMath = {
+
+      'triangle-down': {
+        result: 3,
+        className: 'triangle-down',
+        state: 'unselected',
+        value: '2 * 5 - [(3 * 2) + 1]'
+      },
+
+      'parallelogram': {
+        result: 4,
+        className: 'parallelogram',
+        state: 'unselected',
+        value: '1 + 2 * 5 - [(3 * 2) + 1]'
+      },
+
+      square: {
+        result: 4,
+        className: 'square',
+        state: 'unselected',
+        value: '12/4 + ( 3 - 2)'
+      },
+
+      circle: {
+        result: 0,
+        className: 'circle',
+        state: 'unselected',
+        value: '2 * 10/5 + ( 3 + 1 ) * -1'
+      }
+
+    };
 
   }
 

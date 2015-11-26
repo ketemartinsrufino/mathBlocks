@@ -2,6 +2,7 @@ app.controller('MainController', function ($scope) {
 
 
   $scope.actualFase = new MathBlocks.Views.FaseOne();
+  $scope.message = '';
 
   var state = {
     selected : 'selected',
@@ -30,8 +31,8 @@ app.controller('MainController', function ($scope) {
     var allBlocksViews = document.querySelectorAll('.blocks_container div:not([matched])');
 
     if(allBlocksViews && !allBlocksViews.length) {
-      alert('Parabéns! Você passou para a próxima fase .');
-      $scope.actualFase = $scope.actualFase.nextFase;
+      $scope.message = 'Parabéns! Você passou para a próxima fase .';
+      $scope.actualFase = new $scope.actualFase.nextFase();
       gotoNextFase();
     }
   };
@@ -48,15 +49,17 @@ app.controller('MainController', function ($scope) {
         mathSelected.style.display = 'none';
         obj.style.display = 'none';
 
+        obj.setAttribute('matched', true);
+
       } else {
-        alert('Resposta errada. Tente novamente.');
+        $scope.message = 'Resposta errada. Tente novamente.';
+        console.log($scope.message);
       }
 
     } else {
-      alert('Selecione uma equação');
+      $scope.message = 'Por favor, selecione primeiro uma equação.';
+      console.log($scope.message);
     }
-
-    obj.setAttribute('matched', true);
 
     checkFinish();
 

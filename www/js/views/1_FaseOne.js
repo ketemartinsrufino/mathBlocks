@@ -5,7 +5,10 @@ MathBlocks.Views.FaseOne = (function() {
 
   function FaseOne() {
 
-    this.DataBlocks = {
+    this.chalenger_description = 'O resultado da equação indica quantos lados tem o polígono. ' +
+      '\nClique na equação e depois do bloco para indicar que você realmente sabe matemática!';
+
+    this.DataMath = {
 
       'triangle_up': {
         result: 3,
@@ -28,9 +31,9 @@ MathBlocks.Views.FaseOne = (function() {
       }
     };
 
-    this.DataMath = this.DataBlocks;
+    this.DataBlocks = this.DataMath;
 
-    this.nextFase = new MathBlocks.Views.FaseTwo();
+    this.nextFase = MathBlocks.Views.FaseTwo;
 
     var createElement = function(element, value) {
       var result = element.result;
@@ -57,7 +60,7 @@ MathBlocks.Views.FaseOne = (function() {
 
       var maths_container = createElement({ className: 'maths_container' });
 
-      for (var key in this.DataBlocks) {
+      for (var key in this.DataMath) {
         var element = createElement(this.DataMath[key], this.DataMath[key].value);
         maths_container.appendChild(element);
       }
