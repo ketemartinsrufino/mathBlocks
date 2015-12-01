@@ -5,35 +5,34 @@ MathBlocks.Views.FaseOne = (function() {
 
   function FaseOne() {
 
-    this.chalenger_description = 'O resultado da equação indica quantos lados tem o polígono. ' +
-      '\nClique na equação e depois do bloco para indicar que você realmente sabe matemática!';
+    this.chalenger_description = '(1) Quantos elementos tem nas figuras?';
 
     this.DataMath = {
 
-      'triangle_up': {
+      'threebaloons': {
         result: 3,
-        className: 'triangle-up',
+        className: 'threebaloons',
         state: 'unselected',
-        value: '4 + 5 - 6'
+        value: '3'
       },
 
-      circle: {
-        result: 0,
-        className: 'circle',
+      oneball: {
+        result: 1,
+        className: 'oneball',
         state: 'unselected',
-        value: '0 - 9 -1'
+        value: '1'
       },
-      square: {
+      sevendolls: {
         result: 4,
-        className: 'square',
+        className: 'sevendolls',
         state: 'unselected',
-        value: '2 + 4/2'
+        value: '7'
       }
     };
 
     this.DataBlocks = this.DataMath;
 
-    this.nextFase = MathBlocks.Views.FaseTwo;
+    this.nextFase = MathBlocks.Views.FaseAddition;
 
     var createElement = function(element, value) {
       var result = element.result;
@@ -49,7 +48,10 @@ MathBlocks.Views.FaseOne = (function() {
     };
 
     this.render = function() {
-      var container = document.querySelector('.container');
+      var container = document.querySelector('.container .main_content');
+      var chalenger_description = document.querySelector('.chalenger_description');
+
+      chalenger_description.innerHTML = this.chalenger_description;
 
       var blocks_container = createElement({ className: 'blocks_container' });
 
@@ -64,6 +66,8 @@ MathBlocks.Views.FaseOne = (function() {
         var element = createElement(this.DataMath[key], this.DataMath[key].value);
         maths_container.appendChild(element);
       }
+
+      container.innerHTML = '';
 
       container.appendChild(blocks_container);
       container.appendChild(maths_container);

@@ -22,91 +22,99 @@
   width: initial;
   margin: 20px;
 }
+
 .blocks_container div {
   display: inline-block;
   width: 200px;
   margin: 20px;
-
+  background-repeat: no-repeat;
 }
 
-.blocks_container [class*="triangle-"] {
-  width: 0;
-  height: 0;
+.blocks_container .threebaloons {
+  background-image: url("../img/3baloes.jpeg");
+  width: 184px;
+  height: 200px;
 }
 
-.blocks_container .square {
-  width: 100px;
-  height: 100px;
-  background: red;
+.blocks_container .oneball {
+  background-image: url("../img/1ball.jpeg");
+  width: 143px;
+  height: 138px;
 }
 
-.blocks_container .circle {
-  width: 100px;
-  height: 100px;
-  background: blue;
-  -moz-border-radius: 50px;
-  -webkit-border-radius: 50px;
-  border-radius: 50px;
+.blocks_container .sevendolls {
+  background-image: url("../img/7dolls.jpg");
+  width: 236px;
+  height: 300px;
 }
 
-.blocks_container .triangle-up {
-  width: 0;
-  height: 0;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  border-bottom: 100px solid green;
+.blocks_container .oneairplane {
+  background-image: url("../img/aviao.jpg");
+  width: 143px;
+  height: 138px;
+}
+.blocks_container .fourairplane {
+  background-image: url("../img/aviao.jpg");
+  width: 254px;
+  height: 181px;
+  background-repeat: repeat;
 }
 
-.blocks_container .parallelogram {
-  width: 100px;
-  height: 50px;
-  -webkit-transform: skew(20deg);
-  -moz-transform: skew(20deg);
-  -o-transform: skew(20deg);
-  background: #66CC99;
+.blocks_container .sixhorse {
+  background-image: url("../img/cavalinho.jpg");
+  width: 350px;
+  height: 200px;
+  background-repeat: repeat;
 }
 
-.blocks_container .trapezoid {
-  border-bottom: 50px solid #68C3A3;
-  border-left: 25px solid transparent;
-  border-right: 25px solid transparent;
-  height: 0;
-  width: 50px;
+.blocks_container .twobear {
+  background-image: url("../img/urso.jpg");
+  width: 74px;
+  height: 191px;
+  background-repeat: repeat;
 }
 
-.blocks_container .rhombus {
-  width: 50px;
-  height: 50px;
-  background: #1E824C;
-  transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
+.blocks_container .genius {
+  background-image: url("../img/genius.jpg");
+  width: 300px;
+  height: 172px;
 }
 
-.blocks_container .triangle-up {
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  border-bottom: 100px solid #1E8BC3;
+.blocks_container .eigthavengers {
+  background-image: url("../img/8osvingadores.png");
+  height: 360px;
+  width: 299px;
 }
 
-.blocks_container .triangle-down {
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  border-top: 100px solid #6BB9F0;
+.blocks_container .hulkandthor {
+  background-image: url("../img/hulkandthor.png");
+  width: 360px;
+  height: 360px;
 }
 
-.blocks_container .triangle-left {
-  border-top: 50px solid transparent;
-  border-right: 100px solid #52B3D9;
-  border-bottom: 50px solid transparent;
+.blocks_container .twentytwoavengers {
+  background-image: url("../img/22superherois.jpg");
+  height: 360px;
+  width: 300px;
+}
+.blocks_container .mulhermaravilha {
+  background-image: url("../img/mulhermaravilha.png");
+  height: 360px;
+  width: 150px;
 }
 
-.blocks_container .triangle-right {
-  border-top: 50px solid transparent;
-  border-left: 100px solid #81CFE0;
-  border-bottom: 50px solid transparent;
+.blocks_container .eigthavengers, .blocks_container .hulkandthor,
+.blocks_container .twentytwoavengers,.blocks_container .mulhermaravilha {
+  margin-left: 5px;
 }
-
 .maths_container [state="selected"] {
   border: 2px solid mediumvioletred !important;
+}
+
+.container .messages{
+  background-color: #f2dede;
+  border-color: #eed3d7;
+  color: #b94a48;
+  width: 50%;
+  border-radius: 10px;
 }

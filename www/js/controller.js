@@ -1,8 +1,9 @@
 app.controller('MainController', function ($scope) {
 
-
   $scope.actualFase = new MathBlocks.Views.FaseOne();
-  $scope.message = '';
+  $scope.message = {
+    value: 'aaa'
+  };
 
   var state = {
     selected : 'selected',
@@ -16,22 +17,36 @@ app.controller('MainController', function ($scope) {
   };
 
   var clickMath = function(event, obj, allMath) {
+    clearMessage();
+
     var actualState = obj.getAttribute('state');
     unselectAll(allMath);
     obj.setAttribute('state', (actualState === state.selected? state.unselected: state.selected));
 
   };
 
+  var showMessage = function( message ) {
+    var messageContainer = document.querySelector('.container .messages');
+    messageContainer.innerHTML = message;
+  };
+
+  var clearMessage = function( ) {
+    var messageContainer = document.querySelector('.container .messages');
+    messageContainer.innerHTML = '';
+  };
+
   var gotoNextFase = function() {
+    clearMessage();
     $scope.actualFase.render();
     addListeners();
   };
 
   var checkFinish = function() {
     var allBlocksViews = document.querySelectorAll('.blocks_container div:not([matched])');
+    var allMathViews = document.querySelectorAll('.math_container div');
 
     if(allBlocksViews && !allBlocksViews.length) {
-      $scope.message = 'Parabéns! Você passou para a próxima fase .';
+      showMessage('Parabéns! Você passou para a próxima fase .');
       $scope.actualFase = new $scope.actualFase.nextFase();
       gotoNextFase();
     }
@@ -39,6 +54,7 @@ app.controller('MainController', function ($scope) {
 
   var clickBlock = function(event, obj, allBlocks) {
 
+    clearMessage();
     unselectAll(allBlocks);
 
     var mathSelected = document.querySelector('.maths_container [state="selected"]');
@@ -52,13 +68,13 @@ app.controller('MainController', function ($scope) {
         obj.setAttribute('matched', true);
 
       } else {
-        $scope.message = 'Resposta errada. Tente novamente.';
-        console.log($scope.message);
+        showMessage('Resposta errada. Tente novamente.');
+        console.log($scope.actualFase.message);
       }
 
     } else {
-      $scope.message = 'Por favor, selecione primeiro uma equação.';
-      console.log($scope.message);
+      showMessage('Por favor, selecione primeiro uma equação.');
+      console.log($scope.actualFase.message);
     }
 
     checkFinish();
