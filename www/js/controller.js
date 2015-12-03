@@ -47,8 +47,10 @@ app.controller('MainController', function ($scope) {
 
     if(allBlocksViews && !allBlocksViews.length) {
       showMessage('Parabéns! Você passou para a próxima fase .');
-      $scope.actualFase = new $scope.actualFase.nextFase();
-      gotoNextFase();
+      if($scope.actualFase.nextFase) {
+        $scope.actualFase = new $scope.actualFase.nextFase();
+        gotoNextFase();
+      }
     }
   };
 

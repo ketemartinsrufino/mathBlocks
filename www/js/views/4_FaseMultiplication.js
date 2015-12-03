@@ -49,12 +49,6 @@ MathBlocks.Views.FaseMultiplication = (function() {
         className: 'eigthavengers'
       },
 
-      //'mulhermaravilha': {
-      //  result: 2,
-      //  className: 'mulhermaravilha',
-      //  state: 'unselected',
-      //  value: '0 * 100 + 2'
-      //},
       'hulkandthor': {
         result: 2,
         className: 'hulkandthor'

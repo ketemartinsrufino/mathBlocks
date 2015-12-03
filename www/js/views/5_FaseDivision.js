@@ -18,36 +18,36 @@ MathBlocks.Views.FaseDivision = (function() {
         result: 6,
         className: 'sixhorse',
         state: 'unselected',
-        value: '9 - 3'
+        value: '18/3'
       },
 
       oneball: {
         result: 1,
         className: 'oneball',
         state: 'unselected',
-        value: '10 - 5 - 4  '
+        value: '(2 * 10 + 5)/(20 + 7 - 2)'
       },
 
       'twobear': {
         result: 2,
         className: 'twobear',
         state: 'unselected',
-        value: '5 + 8 - 11'
+        value: '52 - 100/2'
       }
 
     };
 
     this.DataBlocks = {
 
-      'twobear': {
-        result: 2,
-        className: 'twobear',
-        state: 'unselected'
-      },
-
       oneball: {
         result: 1,
         className: 'oneball',
+        state: 'unselected'
+      },
+
+      'twobear': {
+        result: 2,
+        className: 'twobear',
         state: 'unselected'
       },
 
