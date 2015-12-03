@@ -53,11 +53,11 @@
   background-image: url("../img/aviao.jpg");
 }
 .blocks_container .fourairplane {
-  background-image: url("../img/aviao.jpg");
+  background: url("../img/aviao.jpg") left 20px, url("../img/aviao.jpg") right 20px, url("../img/aviao.jpg") left 100px, url("../img/aviao.jpg") right 100px;
   width: 207px;
-  background-repeat: repeat;
-  background-position: left;
-  background-size: 101px;
+  background-repeat: no-repeat;
+  background-size: 105px;
+
 }
 
 .blocks_container .sixhorse {
