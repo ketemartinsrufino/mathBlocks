@@ -1,0 +1,2 @@
+/Users/kete/Documents/Unifor/_Informatica Educativa/projeto/math_blocks/platforms/android/build/intermediates/classes/debug
+/Users/kete/Documents/Unifor/_Informatica Educativa/projeto/math_blocks/platforms/android/build/intermediates/pre-dexed/debug/classes-658579c5cd96de16ec6bd24c4748f31cee09aa7e.jar
