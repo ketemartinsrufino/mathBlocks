@@ -8,7 +8,7 @@ MathBlocks.Views.FaseMultiplication = (function() {
     MathBlocks.Views.FaseOne.apply (this, arguments);
 
     this.chalenger_description = '(4) Sabe multiplicar? Temos certeza que sim!\n' +
-      'Mostre que você já quase um adulto em matemática';
+      'Mostre que você é muito bom em matemática.';
 
     this.nextFase = MathBlocks.Views.FaseDivision;
 

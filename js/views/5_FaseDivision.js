@@ -7,7 +7,7 @@ MathBlocks.Views.FaseDivision = (function() {
 
     MathBlocks.Views.FaseOne.apply (this, arguments);
 
-    this.chalenger_description = '(5) Eita! Agora é a hora de saber se você sabe as 4 operações \n' +
+    this.chalenger_description = '(5) Uau! É isso aí! Agora é a hora de saber se você sabe as 4 operações \n' +
       'Temos soma, subtração, multiplicação e divisão.';
 
     this.nextFase = MathBlocks.Views.FaseFinal;
