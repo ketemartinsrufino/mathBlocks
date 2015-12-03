@@ -2,11 +2,861 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47eac83d-aa5b-49d4-b25f-042528565fec" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hooks/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hooks/after_prepare/010_add_platform_class.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/body-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/highlight-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/hr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/octocat-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/tar-gz-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/zip-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ionic.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/params.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/cache.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/generated/source/buildConfig/debug/org/apache/cordova/BuildConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/bundles/debug/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/bundles/debug/classes.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/AuthenticationToken.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CallbackContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/Config.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/ConfigXmlParser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaActivity$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaActivity$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaActivity$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaActivity$4$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaActivity$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaArgs.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaBridge.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaClientCertRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$Result.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaHttpAuthHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaInterface.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaInterfaceImpl$ActivityResultHolder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaInterfaceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaPlugin.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaPreferences.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaResourceApi$OpenForReadResult.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaResourceApi.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebView.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewEngine$Client.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewEngine$EngineView.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewEngine.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewImpl$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewImpl$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewImpl$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewImpl$EngineClient$1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewImpl$EngineClient$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewImpl$EngineClient.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CoreAndroid$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CoreAndroid$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CoreAndroid$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CoreAndroid$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CoreAndroid$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CoreAndroid.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/ExposedJsApi.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/ICordovaClientCertRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/ICordovaCookieManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/ICordovaHttpAuthHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/LOG.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue$BridgeMode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue$JsMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue$LoadUrlBridgeMode$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue$LoadUrlBridgeMode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue$NoOpBridgeMode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode$OnlineEventsBridgeModeDelegate.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/PluginEntry.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/PluginManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/PluginResult$Status.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/PluginResult.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/Whitelist$URLPattern.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/Whitelist.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemCookieManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemExposedJsApi.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebChromeClient$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebChromeClient$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebChromeClient$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebChromeClient$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebChromeClient$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebChromeClient.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebView.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebViewClient.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebViewEngine$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebViewEngine$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebViewEngine.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/incremental/aidl/debug/dependency.store" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/incremental/mergeAssets/debug/merger.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/incremental/packageResources/debug/merger.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/outputs/aar/CordovaLib-debug.aar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/tmp/packageDebugJar/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/cordova.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/project.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/AuthenticationToken.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CallbackContext.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/Config.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/ConfigXmlParser.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaArgs.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaBridge.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaClientCertRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaDialogsHelper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaHttpAuthHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaInterface.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaInterfaceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaPlugin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaPreferences.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaResourceApi.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaWebView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaWebViewEngine.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaWebViewImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CoreAndroid.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/ExposedJsApi.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/ICordovaClientCertRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/ICordovaCookieManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/ICordovaHttpAuthHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/LOG.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/NativeToJsMessageQueue.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/PluginEntry.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/PluginManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/PluginResult.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/Whitelist.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/engine/SystemCookieManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/engine/SystemExposedJsApi.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/engine/SystemWebChromeClient.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/engine/SystemWebView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/engine/SystemWebViewClient.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/engine/SystemWebViewEngine.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/android.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/cordova-js-src/android/nativeapiprovider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/cordova-js-src/android/promptbasednativeapi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/cordova-js-src/exec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/cordova-js-src/platform.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/cordova-js-src/plugin/android/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/cordova.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/html/home.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/img/1ball.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/img/22superherois.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/img/3baloes.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/img/3bolas.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/img/4baloes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/img/5baloes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/img/7dolls.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/img/8osvingadores copy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/img/8osvingadores.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/img/aviao.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/img/bola.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/img/cavalinho.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/img/chocalho.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/img/genius.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/img/hulk.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/img/hulkandthor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/img/ionic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/img/mulhermaravilha.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/img/osincriveis.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/img/urso.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/views/1_FaseOne.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/views/2_FaseAddition.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/views/3_FaseSubtraction.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/views/4_FaseMultiplication.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/views/5_FaseDivision.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/views/X_FaseFinal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/css/ionic.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/css/ionic.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/fonts/ionicons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/fonts/ionicons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/fonts/ionicons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/fonts/ionicons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/js/angular-ui/angular-ui-router.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/js/angular-ui/angular-ui-router.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/js/angular/angular-animate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/js/angular/angular-animate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/js/angular/angular-resource.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/js/angular/angular-resource.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/js/angular/angular-sanitize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/js/angular/angular-sanitize.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/js/angular/angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/js/angular/angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/js/ionic-angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/js/ionic-angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/js/ionic.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/js/ionic.bundle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/js/ionic.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/js/ionic.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_action-sheet.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_animations.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_backdrop.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_badge.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_bar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_button-bar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_button.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_checkbox.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_form.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_grid.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_items.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_list.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_loading.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_menu.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_modal.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_platform.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_popover.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_popup.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_progress.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_radio.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_range.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_refresher.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_reset.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_scaffolding.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_select.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_slide-box.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_spinner.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_tabs.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_toggle.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_transitions.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_type.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_util.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/ionic.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/ionicons/_ionicons-font.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/ionicons/_ionicons-icons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/ionicons/_ionicons-variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/ionicons/ionicons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/version.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/android_sdk_version" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/build" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/build.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/check_reqs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/check_reqs.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/clean" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/clean.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/defaults.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/android_sdk_version.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/appinfo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/build.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/check_reqs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/device.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/emulator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/exec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/install-device" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/install-device.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/install-emulator" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/install-emulator.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/list-devices" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/list-devices.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/list-emulator-images" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/list-emulator-images.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/list-started-emulators" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/list-started-emulators.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/log.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/plugin-build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/retry.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/run.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/spawn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/start-emulator" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/start-emulator.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/log.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/nopt/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/nopt/lib/nopt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/nopt/node_modules/abbrev/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/nopt/node_modules/abbrev/abbrev.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/nopt/node_modules/abbrev/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/nopt/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/q/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/q/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/q/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/q/benchmark/compare-with-callbacks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/q/benchmark/scenarios.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/q/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/q/q.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/q/queue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/.documentup.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/bin/shjs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/global.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/make.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/scripts/generate-docs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/scripts/run-tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/shell.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/cat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/cd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/chmod.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/cp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/dirs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/echo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/error.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/exec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/find.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/grep.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/ls.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/mkdir.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/mv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/popd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/pushd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/pwd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/rm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/sed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/tempdir.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/to.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/toEnd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/which.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/which/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/which/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/which/bin/which" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/which/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/which/which.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/run" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/run.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/version" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/version.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/platform_www/cordova-js-src/android/nativeapiprovider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/platform_www/cordova-js-src/android/promptbasednativeapi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/platform_www/cordova-js-src/exec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/platform_www/cordova-js-src/platform.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/platform_www/cordova-js-src/plugin/android/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/platform_www/cordova.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/project.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-hdpi/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-land-hdpi/screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-land-ldpi/screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-land-mdpi/screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-land-xhdpi/screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-land-xxhdpi/screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-land-xxxhdpi/screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-ldpi/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-mdpi/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-port-hdpi/screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-port-ldpi/screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-port-mdpi/screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-port-xhdpi/screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-port-xxhdpi/screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-port-xxxhdpi/screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-xhdpi/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-xxhdpi/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-xxxhdpi/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/res/values/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/settings.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/src/com/ionicframework/mathblocks141061/MainActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/platforms.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/RELEASENOTES.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/doc/de/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/doc/de/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/doc/es/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/doc/es/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/doc/fr/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/doc/fr/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/doc/it/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/doc/it/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/doc/ja/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/doc/ja/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/doc/ko/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/doc/ko/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/doc/pl/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/doc/pl/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/doc/ru/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/doc/zh/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/doc/zh/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/src/ios/CDVLogger.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/src/ios/CDVLogger.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/src/ubuntu/console.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/src/ubuntu/console.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/src/wp/DebugConsole.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/tests/plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/tests/tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/www/console-via-logger.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/www/logger.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/RELEASENOTES.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/doc/de/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/doc/de/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/doc/es/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/doc/es/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/doc/fr/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/doc/fr/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/doc/it/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/doc/it/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/doc/ja/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/doc/ja/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/doc/ko/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/doc/ko/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/doc/pl/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/doc/pl/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/doc/ru/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/doc/zh/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/doc/zh/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/src/android/Device.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/src/blackberry10/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/src/browser/DeviceProxy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/src/firefoxos/DeviceProxy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/src/ios/CDVDevice.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/src/ios/CDVDevice.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/src/tizen/DeviceProxy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/src/ubuntu/device.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/src/ubuntu/device.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/src/ubuntu/device.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/src/windows/DeviceProxy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/src/wp/Device.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/tests/plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/tests/tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/www/device.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/RELEASENOTES.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/de/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/de/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/es/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/es/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/fr/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/fr/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/it/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/it/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/ja/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/ja/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/ko/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/ko/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/pl/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/pl/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/ru/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/zh/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/zh/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/src/android/SplashScreen.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/src/blackberry10/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/src/browser/SplashScreenProxy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/src/ios/CDVSplashScreen.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/src/ios/CDVSplashScreen.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/src/ios/CDVViewController+SplashScreen.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/src/ios/CDVViewController+SplashScreen.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/src/tizen/SplashScreenProxy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/src/ubuntu/splashscreen.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/src/ubuntu/splashscreen.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/src/wp/ResolutionHelper.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/src/wp/SplashScreen.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/CDVSplashScreenTest.xcworkspace/contents.xcworkspacedata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/CDVSplashScreenTest.xcworkspace/xcshareddata/CDVSplashScreenTest.xccheckout" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/CDVSplashScreenTest.xcworkspace/xcshareddata/xcschemes/CordovaLib.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/CDVSplashScreenTest/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/CDVSplashScreenTest/CDVSplashScreenLibTests/ImageNameTest.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/CDVSplashScreenTest/CDVSplashScreenLibTests/ImageNameTestDelegates.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/CDVSplashScreenTest/CDVSplashScreenLibTests/ImageNameTestDelegates.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/CDVSplashScreenTest/CDVSplashScreenLibTests/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/CDVSplashScreenTest/CDVSplashScreenTest.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/CDVSplashScreenTest/CDVSplashScreenTest.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/CDVSplashScreenTest/CDVSplashScreenTest.xcodeproj/project.xcworkspace/xcshareddata/CDVSplashScreenTest.xccheckout" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/CDVSplashScreenTest/CDVSplashScreenTest.xcodeproj/xcshareddata/xcschemes/CDVSplashScreenLib.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/CDVSplashScreenTest/CDVSplashScreenTest.xcodeproj/xcshareddata/xcschemes/CDVSplashScreenLibTests.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/doc/de/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/doc/es/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/doc/fr/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/doc/it/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/doc/ja/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/doc/ko/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/doc/pl/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/doc/zh/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/www/splashscreen.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/www/windows/SplashScreenProxy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/RELEASENOTES.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/de/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/de/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/es/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/es/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/fr/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/fr/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/it/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/it/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/ja/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/ja/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/ko/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/ko/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/pl/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/pl/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/ru/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/zh/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/zh/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/src/android/StatusBar.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/src/ios/CDVStatusBar.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/src/ios/CDVStatusBar.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/src/windows/StatusBarProxy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/src/wp/StatusBar.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/tests/plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/tests/tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/www/statusbar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/RELEASENOTES.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/src/android/WhitelistPlugin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/src/ios/CDVNavigationWhitelistPlugin.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/src/ios/CDVNavigationWhitelistPlugin.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/whitelist.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/fetch.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/android/IonicKeyboard.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/.cproject" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/device/libKeyboard.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/device/public/json_reader.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/device/public/json_value.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/device/public/json_writer.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/device/public/plugin.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/device/public/tokenizer.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/device/src/CallKeyboard.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/device/src/Logger.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/device/src/keyboard_js.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/device/src/keyboard_ndk.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/public/json/autolink.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/public/json/config.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/public/json/features.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/public/json/forwards.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/public/json/json.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/public/json/reader.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/public/json/value.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/public/json/writer.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/public/json_batchallocator.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/public/json_internalarray.inl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/public/json_internalmap.inl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/public/json_reader.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/public/json_value.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/public/json_valueiterator.inl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/public/json_writer.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/public/plugin.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/public/plugin.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/public/tokenizer.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/public/tokenizer.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/simulator/libKeyboard.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/simulator/public/json_reader.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/simulator/public/json_value.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/simulator/public/json_writer.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/simulator/public/plugin.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/simulator/public/tokenizer.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/simulator/src/CallKeyboard.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/simulator/src/Logger.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/simulator/src/keyboard_js.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/simulator/src/keyboard_ndk.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/src/Logger.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/src/Logger.hpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/src/keyboard_js.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/src/keyboard_js.hpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/src/keyboard_ndk.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/src/keyboard_ndk.hpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/ios/IonicKeyboard.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/ios/IonicKeyboard.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/ios/UIWebViewExtension.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/ios/UIWebViewExtension.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/windows/KeyboardProxy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/www/android/keyboard.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/www/ios/keyboard.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ios.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/icon/drawable-hdpi-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/icon/drawable-ldpi-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/icon/drawable-mdpi-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/icon/drawable-xhdpi-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/icon/drawable-xxhdpi-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/icon/drawable-xxxhdpi-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-land-hdpi-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-land-ldpi-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-land-mdpi-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-land-xhdpi-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-land-xxhdpi-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-land-xxxhdpi-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-hdpi-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-ldpi-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-mdpi-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-xhdpi-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-xxhdpi-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-xxxhdpi-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-40@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-50.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-50@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-60.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-60@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-60@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-72.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-72@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-76.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-76@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-small@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-small@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/splash/Default-568h@2x~iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/splash/Default-667h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/splash/Default-736h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/splash/Default-Landscape-736h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/splash/Default-Landscape@2x~ipad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/splash/Default-Landscape~ipad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/splash/Default-Portrait@2x~ipad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/splash/Default-Portrait~ipad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/splash/Default@2x~iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/splash/Default~iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/splash.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/ionic.app.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/.bowerrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/gulpfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/hooks/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/hooks/after_prepare/010_add_platform_class.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/scss/ionic.app.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/img/adam.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/img/ben.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/img/ionic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/img/max.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/img/mike.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/img/perry.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/js/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/js/controllers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/js/services.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/css/ionic.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/css/ionic.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/fonts/ionicons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/fonts/ionicons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/fonts/ionicons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/fonts/ionicons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/js/angular-ui/angular-ui-router.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/js/angular-ui/angular-ui-router.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/js/angular/angular-animate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/js/angular/angular-animate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/js/angular/angular-resource.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/js/angular/angular-resource.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/js/angular/angular-sanitize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/js/angular/angular-sanitize.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/js/angular/angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/js/angular/angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/js/ionic-angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/js/ionic-angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/js/ionic.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/js/ionic.bundle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/js/ionic.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/js/ionic.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/scss/_action-sheet.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/scss/_animations.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/scss/_backdrop.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/scss/_badge.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/scss/_bar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/scss/_button-bar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/scss/_button.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/scss/_checkbox.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/scss/_form.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/scss/_grid.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/scss/_items.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/scss/_list.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/scss/_loading.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/scss/_menu.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/scss/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/scss/_modal.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/scss/_platform.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/scss/_popover.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/scss/_popup.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/scss/_progress.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/scss/_radio.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/scss/_range.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/scss/_refresher.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/scss/_reset.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/scss/_scaffolding.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/scss/_select.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/scss/_slide-box.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/scss/_spinner.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/scss/_tabs.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/scss/_toggle.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/scss/_transitions.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/scss/_type.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/scss/_util.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/scss/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/scss/ionic.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/scss/ionicons/_ionicons-font.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/scss/ionicons/_ionicons-icons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/scss/ionicons/_ionicons-variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/scss/ionicons/ionicons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/lib/ionic/version.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/templates/chat-detail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/templates/tab-account.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/templates/tab-chats.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/templates/tab-dash.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/www/templates/tabs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/github-dark.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/print.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/stylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/html/home.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/1ball.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/22superherois.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/3baloes.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/3bolas.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/4baloes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/5baloes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/7dolls.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/8osvingadores copy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/8osvingadores.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/aviao.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/bola.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/cavalinho.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/chocalho.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/genius.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/hulk.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/hulkandthor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/ionic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/mulhermaravilha.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/osincriveis.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/urso.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/js/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/js/config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/js/controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/js/views/1_FaseOne.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/js/views/2_FaseAddition.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/js/views/3_FaseSubtraction.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/js/views/4_FaseMultiplication.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/js/views/5_FaseDivision.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/js/views/X_FaseFinal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/css/ionic.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/css/ionic.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/fonts/ionicons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/fonts/ionicons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/fonts/ionicons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/fonts/ionicons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/js/angular-ui/angular-ui-router.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/js/angular-ui/angular-ui-router.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular-animate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular-animate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular-resource.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular-resource.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular-sanitize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular-sanitize.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/js/ionic-angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/js/ionic-angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/js/ionic.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/js/ionic.bundle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/js/ionic.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/js/ionic.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_action-sheet.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_animations.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_backdrop.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_badge.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_bar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_button-bar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_button.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_checkbox.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_form.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_grid.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_items.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_list.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_loading.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_menu.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_modal.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_platform.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_popover.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_popup.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_progress.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_radio.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_range.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_refresher.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_reset.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_scaffolding.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_select.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_slide-box.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_spinner.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_tabs.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_toggle.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_transitions.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_type.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_util.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/ionic.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/ionicons/_ionicons-font.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/ionicons/_ionicons-icons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/ionicons/_ionicons-variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/ionicons/ionicons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ionic/version.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="math_blocks.iws" />
@@ -32,8 +882,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.59634554">
-              <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.9206349">
+              <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -52,6 +902,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/config.xml" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -119,34 +970,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="math_blocks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="math_blocks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="math_blocks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="math_blocks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -174,6 +997,47 @@
       <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -194,6 +1058,177 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
+      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
+      <module name="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JRubyCucumberRunConfigurationType" factoryName="JRuby Cucumber">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-Dforce.jruby.jit=true -Djruby.debug.fullTrace=true" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -217,12 +1252,30 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -253,6 +1306,15 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -265,16 +1327,16 @@
       <created>1449106138909</created>
       <option name="number" value="Default" />
       <updated>1449106138909</updated>
-      <workItem from="1449106140977" duration="190000" />
+      <workItem from="1449106140977" duration="637000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="190000" />
+    <option name="totallyTimeSpent" value="637000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -283,9 +1345,9 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32892805" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18578352" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2552504" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -317,8 +1379,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59634554">
-          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.9206349">
+          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding />
         </state>
       </provider>
